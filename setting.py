@@ -55,3 +55,12 @@ plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
 plt.rcParams["axes.unicode_minus"] = False
 
 # ---- 项目参数 -------------------------------------------------------------------------------------
+
+# 输入变量：给煤量指令、给水量、阀门开度
+U_COLS = ["ub", "Dfw", "ut"]
+
+# 状态量：入炉燃料量、中间点压力、中间点焓值
+X_COLS = ["rb", "Pm", "hm"]
+
+# 输出变量：主汽压力、中间点焓值、机组功率
+Y_COLS = ["Pst", "hm", "Ne"]

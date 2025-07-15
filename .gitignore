@@ -31,9 +31,7 @@ trash/
 tmp/
 img/
 
-*.pdf
 *.csv
 *.xlsx
 
 runtime/
-data/
